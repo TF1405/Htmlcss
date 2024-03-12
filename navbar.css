@@ -1,0 +1,188 @@
+:root {
+    --lightgrey: rgb(234 242 252);
+    --white: rgb(255 255 255);
+    --blue: rgb(48 127 226);
+    --darkgrey: rgb(71 71 71);
+    --fontlightgrey: rgb(108 108 108);
+    --buttonlightgrey: rgb(244 244 244);
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo';
+}
+
+/* Header Styling */
+
+button {
+    font-family: 'Exo';
+}
+
+header {
+    text-align: right;
+}
+
+img {
+    width: 130px;
+    height: 40px;
+}
+
+/* Stage 1 */
+
+.nav-block {
+    background-color: var(--lightgrey);
+}
+
+.nav-link-container {
+    margin: 0 2.5rem;
+    padding: 0.25rem 8rem;
+}
+
+.nav-link {
+    font-size: 0.75rem;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+/* Stage 2 */
+
+.nav-container {
+    background-color: var(--lightgrey);
+    padding: 0 2.5rem;
+}
+
+.nav-logo-button-and-search {
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem 8rem 0;
+    justify-content: space-between;
+}
+
+.nav-button-category-cart {
+    background-color: transparent;
+    color: var(--darkgrey);
+    display: flex;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.button-category-text {
+    margin-left: 0.5rem;
+}
+
+.nav-search {
+    width: 60%;
+}
+
+.search-bar {
+    background-color: var(--white);
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-family: 'Exo';
+    width: auto;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input {
+    display: flex;
+    background-color: transparent;
+    font-family: 'Exo';
+    border: none;
+    outline: 0;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+.search-bar button {
+    align-items: center;
+    display: flex;
+    font-size: 1.125rem;
+    color: var(--darkgrey);
+    margin-right: 2px;
+    background-color: transparent;
+    outline: 0;
+    border: transparent;
+    cursor: pointer;
+}
+
+.button-cart-text {
+    font-size: 1.125rem;
+}
+
+.button-sign-up, .button-login {
+    font-size: 0.875rem;
+    font-weight: 600;
+    border: 0.8px;
+    border-radius: 0.25rem;
+    padding: 0 1.25rem;
+}
+
+.button-text-container {
+    height: 2.5rem;
+    display: flex;
+}
+
+.button-text {
+    margin: auto;
+}
+
+.button-sign-up {
+    background-color: var(--lightgrey);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.button-login {
+    color: var(--white);
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    cursor: pointer;
+}
+
+/* Stage 3 */
+
+.stage-3-nav-container {
+    margin: 0 2.5rem;
+}
+
+.inside-stage-3-container {
+    margin: 0 8rem;
+    display: flex;
+}
+
+.stage-3-flex {
+    display: flex;
+    margin: 0.5rem auto;
+    width: 60%;
+}
+
+.stage-3-flex button {
+    color: var(--fontlightgrey);
+    background-color: var(--buttonlightgrey);
+    margin-left: 1rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 3px 0.5rem;
+    border-radius: 0.25rem;
+    border: 0;
+    line-height: 1.125rem;
+}
+
