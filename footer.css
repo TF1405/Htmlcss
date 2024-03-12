@@ -1,3 +1,26 @@
+/* duplicate delete when already copied to index.html */
+
+:root {
+    --lightgrey: rgb(234 242 252);
+    --white: rgb(255 255 255);
+    --blue: rgb(48 127 226);
+    --darkgrey: rgb(71 71 71);
+    --fontlightgrey: rgb(108 108 108);
+    --buttonlightgrey: rgb(244 244 244);
+    }
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo';
+}
+
+/* duplicate delete when already copied to index.html */
+
 .footer-container {
     margin: 0 2.5rem;
     padding: 0 8rem;
@@ -11,4 +34,78 @@
 
 .row-flex-container {
     flex-direction: column;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+
+.icon-container {
+    width: 72px;
+    height: 31.2px;
+}
+
+.icon-payment {
+    display: flex;
+    justify-content: center;
+    width: 46px;
+    height: 24px;
+}
+
+.icon-payment img {
+    max-height: 100%;
+}
+
+.social-media-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-container {
+    display: flex;
+}
+
+div h3 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+    display: block;
+}
+
+div a {
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.content-container {
+    margin-bottom: 1.5rem;
+}
+
+.inside-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Copyright Section */
+
+.copyright-container {
+    margin: 0 2.5rem;
+    padding: 1rem 8rem;
+}
+
+.copyright-section, .trade-mark-section {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--fontlightgrey);
 }
