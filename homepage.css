@@ -75,3 +75,67 @@
 .column-item-flex a {
     text-decoration: none;
 }
+
+/* Responsive */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 1200px) {
+    .main-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .inside-main-container {
+        padding: 0 5rem;
+    }
+
+    .column-item-flex {
+        overflow: hidden;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 992px) {
+
+    .main-container {
+        height: 12.5rem;
+    }
+
+    .column-item-flex {
+        overflow: hidden;
+    }
+
+    .inside-column-item {
+        row-gap: 1rem;
+    }
+
+    .top-item-flex, .bottom-item-flex {
+        width: 5rem;
+        height: 5.75rem;
+    }
+
+    .item-container {
+        width: 5rem;
+        height: 12.5rem;
+    }
+
+
+    .item-image-container {
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+
+    .item-text-container {
+        font-size: 0.75rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+    .inside-main-container {
+        padding: 0;
+    }
+}
