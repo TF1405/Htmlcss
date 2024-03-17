@@ -43,6 +43,12 @@ body {
     gap: 1rem;
 }
 
+.payment-and-social-media-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
 .icon-container {
     width: 72px;
     height: 31.2px;
@@ -108,4 +114,31 @@ div a {
     text-align: center;
     font-size: 0.75rem;
     color: var(--fontlightgrey);
+}
+
+@media screen and (max-width: 1440px) {
+    .payment-and-social-media-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media screen and (max-width: 1200px) {
+    .footer-container {
+        margin: 0;
+        padding: 0 5rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    /* Menyembunyikan elemen footer untuk versi desktop */
+    .footer-desktop-version {
+    display: none;
+    }
 }
